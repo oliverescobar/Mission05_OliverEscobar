@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Calculator";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Calculator</h1>
+    <p>I've created a nifty little calculating option that works perfect for figuring out my rates! Please feel free to experiment below.'</p><br />
+    <div>
+        <label>How many hours do you desire to practice?</label><input type="number" id="HoursPaid" min="0" />
+    </div><br />
+    <div>
+        <label>My Hourly Rate:</label>
+        <input type="text" id="hourlyRate" value="$30" readonly />
+    </div><br />
+    <div>
+        <button type="submit" id="Calculate">Find total!</button>
+    </div>
+    <p id="MoneyOutput"></p>
+</div>
